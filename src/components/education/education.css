@@ -1,0 +1,56 @@
+.education_container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 3rem;
+}
+
+.education_container >div{
+    background: var(--color-bg-variant);
+    border-radius: 0 0 2rem 2rem;
+    border: 1px solid var(--color-primary);
+    height: fit-content;
+    transition: var(--transition);
+}
+
+.education_container > div:hover{
+    background: transparent;
+    background-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.education_head{
+    background: var(--color-primary);
+    border-radius: 0 0 2rem 2rem;
+    padding: 2rem;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.Education_data >div{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 10%;
+    padding: 0.5rem;
+}
+
+.Education_data>div>h5{
+    
+    color: var(--color-primary);
+    
+}
+
+
+@media screen and (max-width:1024px) {
+   .education_container{
+    grid-template-columns: 1fr 1fr;
+   }
+    
+}
+
+
+@media screen and (max-width:600px) {
+    .education_container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+       }
+    
+}
