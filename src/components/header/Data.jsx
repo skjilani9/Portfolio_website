@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from '../../assets/jilani resume.pdf'
+import Resume from '../../assets/Jilani-resume.pdf'
 
 const Data = () => {
   return (

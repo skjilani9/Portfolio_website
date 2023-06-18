@@ -5,6 +5,7 @@ import ME3 from '../../assets/portfolio3.jpg'
 import ME4 from '../../assets/portfolio4.jpg'
 import ME5 from '../../assets/portfolio5.png'
 import ME6 from '../../assets/portfolio6.jpg'
+import ME7 from '../../assets/portfolio6.jpg'
 import './project.css'
 
 const Projects = () => {
@@ -51,6 +52,13 @@ const Projects = () => {
       title: "GoGoFood",
       Github: "https://github.com/skjilani9/GoGoFood_website",
       livedemo: "https://jilanigogofoodwebsite.netlify.app"
+    },
+    {
+      id: 7,
+      image: ME7,
+      title: "Get-Chat",
+      Github: "https://github.com/skjilani9/Chatting",
+      livedemo: "https://jilani-chat-app.netlify.app"
     }
   ]
 
